@@ -1,5 +1,5 @@
 # Hand Gesture Control
-
+## **THIS PROJECT IS STILL UNDER DEVELOPMENT**
 ## Overview
 
 This project enables computer control using hand gestures detected by a webcam. Leveraging the MediaPipe Hands library, the system recognizes hand landmarks and executes actions based on gestures.
