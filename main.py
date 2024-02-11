@@ -120,7 +120,7 @@ while cap.isOpened():
     cv2.putText(frame, f"Scrolling: {'Enabled' if enable_scrolling else 'Disabled'}", (10, 70), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 2, cv2.LINE_AA)
 
     # Display the resulting frame.
-    cv2.imshow('MediaPipe Hands', frame)
+    cv2.imshow(' mouse controling via hand gestures', frame)
 
     # Check for key presses
     key = cv2.waitKey(1) & 0xFF
