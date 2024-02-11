@@ -30,8 +30,8 @@ This project enables computer control using hand gestures detected by a webcam. 
 2. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/hand-gesture-control.git
-cd hand-gesture-control
+git clone https://github.com/R0nN1ri/no-more-mouse.git
+cd no-more-mouse
 ```
 Run the main script:
 ```bash
