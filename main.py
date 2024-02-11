@@ -26,8 +26,8 @@ screen_width, screen_height = get_monitors()[0].width, get_monitors()[0].height
 # Def Current gesture
 current_gesture = "None" 
 # Define the default dpi (0.5 means half the screen size)
-speed = 0.5
-dpi = 1 - speed
+
+dpi = 0.5
 
 # Flag to keep track of the mouse click state
 mouse_click_gesture = False
@@ -54,7 +54,7 @@ while cap.isOpened():
     results = hands.process(rgb_frame)
 
     # Calculate the rectangular region size based on dpi.
-    region_width = int(screen_width * dpi)
+    region_width = int(screen_width * 1-dpi)
     region_height = screen_height
     region_start_x = int((screen_width - region_width) / 2)  # Centered position
 
